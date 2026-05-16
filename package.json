@@ -1,0 +1,16 @@
+{
+  "name": "knowledge",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "dev:api": "pnpm -F @knowledge/api dev",
+    "dev:web": "pnpm -F @knowledge/web dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  },
+  "packageManager": "pnpm@9.15.0"
+}
